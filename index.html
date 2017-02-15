@@ -8,6 +8,35 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
+    <div class="container">
+      <h1>Survey</h1>
+      <h3>Please select an answer or enter text</h3><br>
+      <div class="row">
+        <div class="col-md-12">
+          <form id="form-complete">
+            <label for="musInput">Favorite Music:</label>
+            <input id="musInput" type="text"><br>
 
+            <label for="foodInput">Favorite Food:</label>
+            <input id="foodInput" type="text"><br>
+
+            <label for="transPreference">Transmission Preference:</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="transType" value="Standard" checked>
+                Standard
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="transType" value="Automatic">
+                Automatic
+              </label>
+            </div><br>
+
+            <button type="submit" class="btn">Submit</button>
+          </form>
+      </div>
+    </div>
   </body>
 </html>
