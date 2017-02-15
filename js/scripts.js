@@ -26,11 +26,15 @@ $(document).ready(function(){
     $("#colorAns").css('color', favoriteColor);
     $("#bornAns").text("Date of Birth: " + dateOfBirth);
     $("#mediaAns").text("Favorite Media Type: " + mediaType);
-    console.log(favMusic);
-    console.log(favFood);
-    console.log(transPreference);
-    console.log(favoriteColor);
-    console.log(dateOfBirth);
-    console.log(mediaType);
+    // console.log(favMusic);
+    // console.log(favFood);
+    // console.log(transPreference);
+    // console.log(favoriteColor);
+    // console.log(dateOfBirth);
+    // console.log(mediaType);
+  });
+  $("#submit-btn").click(function(){
+    $("#answers").show();
+    $("#questions").hide();
   });
 });

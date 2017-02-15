@@ -9,9 +9,9 @@
   </head>
   <body>
     <div class="container">
-      <h1>Survey</h1>
-      <h3>Please select an answer or enter text</h3><br>
-      <div class="row">
+      <div id="questions" class="row">
+        <h1>Survey</h1>
+        <h3>Please select an answer or enter text</h3><br>
         <div class="col-md-12">
           <!--Form inputs-->
           <form id="form-complete">
@@ -48,20 +48,20 @@
               <option value="8-Tracks">8-Tracks</option>
               <option value="Digital">Digital (Streaming, MP3s, etc.)</option>
             </select>
-            <button type="submit" class="btn">Submit</button>
+            <button id="submit-btn" type="submit" class="btn">Submit</button>
           </form>
-          <!--Answers-->
-          <div id="answers">
-            <h1>Your Answers</h1>
-            <ul>
-              <li id="musicAns"></li>
-              <li id="foodAns"></li>
-              <li id="transAns"></li>
-              <li id="colorAns"></li>
-              <li id="bornAns"></li>
-              <li id="mediaAns"></li>
-            </ul>
-          </div>
+        </div>
+      </div>
+      <div id="answers" class="row">
+        <h1>Your Answers</h1>
+        <ul>
+          <li id="musicAns"></li>
+          <li id="foodAns"></li>
+          <li id="transAns"></li>
+          <li id="colorAns"></li>
+          <li id="bornAns"></li>
+          <li id="mediaAns"></li>
+        </ul>
       </div>
     </div>
   </body>
