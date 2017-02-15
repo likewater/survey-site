@@ -16,10 +16,8 @@
           <form id="form-complete">
             <label for="musInput">Favorite Music:</label>
             <input id="musInput" type="text"><br>
-
             <label for="foodInput">Favorite Food:</label>
             <input id="foodInput" type="text"><br>
-
             <label for="transPreference">Transmission Preference:</label>
             <div class="radio">
               <label>
@@ -32,8 +30,23 @@
                 <input type="radio" name="transType" value="Automatic">
                 Automatic
               </label>
-            </div><br>
-
+            </div>
+            <div class="form-group">
+              <label for="color">What is your favorite color?</label>
+              <input id="color" class="form-control" type="color">
+            </div>
+            <div class="form-group">
+              <label for="born">Date of birth:</label>
+              <input id="born" class="form-control" type="date">
+            </div>
+            <label for="mediaType">Favorite Media Type:</label>
+            <select class="form-control" id="mediaType">
+              <option value="CD">CD/DVD</option>
+              <option value="Casettes">Cassettes</option>
+              <option value="LPs">LPs</option>
+              <option value="8-Tracks">8-Tracks</option>
+              <option value="Digital">Digital (Streaming, MP3s, etc.)</option>
+            </select>
             <button type="submit" class="btn">Submit</button>
           </form>
       </div>
