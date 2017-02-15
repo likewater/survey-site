@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Survery Site</title>
+    <title>Survey Site</title>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
@@ -13,6 +13,7 @@
       <h3>Please select an answer or enter text</h3><br>
       <div class="row">
         <div class="col-md-12">
+          <!--Form inputs-->
           <form id="form-complete">
             <label for="musInput">Favorite Music:</label>
             <input id="musInput" type="text"><br>
@@ -49,6 +50,18 @@
             </select>
             <button type="submit" class="btn">Submit</button>
           </form>
+          <!--Answers-->
+          <div id="answers">
+            <h1>Your Answers</h1>
+            <ul>
+              <li id="musicAns"></li>
+              <li id="foodAns"></li>
+              <li id="transAns"></li>
+              <li id="colorAns"></li>
+              <li id="bornAns"></li>
+              <li id="mediaAns"></li>
+            </ul>
+          </div>
       </div>
     </div>
   </body>

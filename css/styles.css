@@ -1,3 +1,7 @@
 #form-complete{
   font-size: 19px;
 }
+
+li{
+  list-style-type: none;
+}

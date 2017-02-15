@@ -18,6 +18,14 @@ $(document).ready(function(){
     favoriteColor = $("#color").val();
     dateOfBirth = $("#born").val();
     mediaType = $("#mediaType").val();
+
+    $("#musicAns").text("Favorite Music: " + favMusic);
+    $("#foodAns").text("Favorite Food: " + favFood);
+    $("#transAns").text("Transmission Preference: " + transPreference);
+    $("#colorAns").text("Favorite Color ");
+    $("#colorAns").css('color', favoriteColor);
+    $("#bornAns").text("Date of Birth: " + dateOfBirth);
+    $("#mediaAns").text("Favorite Media Type: " + mediaType);
     console.log(favMusic);
     console.log(favFood);
     console.log(transPreference);
