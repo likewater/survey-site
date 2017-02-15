@@ -37,4 +37,7 @@ $(document).ready(function(){
     $("#answers").show();
     $("#questions").hide();
   });
+  $("#reset-btn").click(function(){
+    location.reload();
+  });
 });

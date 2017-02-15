@@ -1,11 +1,24 @@
+.jumbotron{
+  background-color: dodgerblue;
+  color: white;
+}
+
 #form-complete{
   font-size: 19px;
+}
+
+#answers{
+  display: none;
 }
 
 li{
   list-style-type: none;
 }
 
-#answers{
-  display: none;
+ul{
+  font-size: 20px;
+}
+
+.btn-info{
+  background-color: dodgerblue;
 }
